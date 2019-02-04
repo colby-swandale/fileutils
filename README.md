@@ -8,9 +8,7 @@ Namespace for several file utility methods for copying, moving, removing, etc.
 
 Add this line to your application's Gemfile:
 
-```ruby
-gem 'fileutils'
-```
+    gem 'fileutils'
 
 And then execute:
 
@@ -24,14 +22,12 @@ Or install it yourself as:
 
 Just call `FileUtils` methods. For example:
 
-```ruby
-FileUtils.mkdir("somedir")
-# => ["somedir"]
+    FileUtils.mkdir("somedir")
+    # => ["somedir"]
 
-FileUtils.cd("/usr/bin")
-FileUtils.pwd
-# => "/usr/bin"
-```
+    FileUtils.cd("/usr/bin")
+    FileUtils.pwd
+    # => "/usr/bin"
 
 You can find a full method list in the [documentation](https://ruby-doc.org/stdlib/libdoc/fileutils/rdoc/FileUtils.html).
 
